@@ -1,7 +1,7 @@
 # alpha-aks-platform
 Alpha AKS cloud infrastructure
 
-# Pre-requisites
+# Prerequisites
 - Azure subscription with login/password
 - Visual Studio code (Kubernetes plugin)
 - Azure CLI
