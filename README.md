@@ -20,6 +20,16 @@ The above creates a kubernetes cluster with the following:
 - 10GB private container registery (clustername-acr)
 - Kubernetes cluster (clustername-aks)
 
+# How to view log information
+- Install Azure CLI (https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
+- Install VS Code (https://code.visualstudio.com/download)
+- Install Kubernetes plugin for VS Code (https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools)
+- Run the following from the commandline: az aks get-credentials --resource-group tbs-prod-rg --name tbs-prod-aks
+- Select the namespace for the container in the clusters pane (Right-click "use context")
+- Open the workloads 
+- Open the deployments
+- Right-click and selct "Follow Logs"
+
 # Cluster Utilities
 
 **cert-manager** - resposible for automatically creating certificates for any domain created on the platform
