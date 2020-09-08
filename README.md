@@ -21,14 +21,18 @@ The above creates a kubernetes cluster with the following:
 - Kubernetes cluster (clustername-aks)
 
 # How to view log information
+One time setup:
 - Install Azure CLI (https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
 - Install VS Code (https://code.visualstudio.com/download)
 - Install Kubernetes plugin for VS Code (https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools)
 - Run the following from the commandline: az aks get-credentials --resource-group tbs-prod-rg --name tbs-prod-aks
+
+For each log:
 - Select the namespace for the container in the clusters pane (Right-click "use context")
 - Open the workloads 
 - Open the deployments
 - Right-click and selct "Follow Logs"
+
 
 # Cluster Utilities
 
